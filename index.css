@@ -1,0 +1,53 @@
+body {
+  background: #EEE;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #424242;
+  margin: 5rem;
+}
+
+/**
+ * Form
+ */
+.form-link { padding-top: .75rem; }
+
+.form-error {
+  color: #F44336;
+  margin: 0;
+  padding: 0;
+}
+
+.form-toogle-check {
+  display: inline-block;
+  margin-top: .75rem;
+}
+
+.form-toggle-block {
+  padding-top: 10px;
+}
+
+.form-title {
+  display: block;
+  width: 100%;
+  padding: 0;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: inherit;
+  border: 0;
+}
+
+/**
+ * Card
+ */
+.card-list {
+  list-style: none;
+  padding: 1.25rem;
+}
+
+.card-list--hightlight {
+  background-color: #F5F5F5;
+}
